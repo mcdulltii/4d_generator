@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@title</title>
+    @css 'assets/site.css'
+  </head>
+  <body>
+    <div class="main">
+      <h1>@title</h1>
+      <ul></ul>
+    </div>
+    <script>
+      "use strict";
+      var eventList = document.querySelector('ul');
+      const evtSource = new EventSource('/get_4d_number');
+      evtSource.onmessage = function(e) {
+        evtSource.close();
+      };
+      evtSource.addEventListener("ping", function(e) {
+        var newElement = document.createElement("li");
+        var obj = JSON.parse(e.data);
+        newElement.innerHTML = "Number: " + obj.number;
+        eventList.appendChild(newElement);
+      }, false);
+    </script>
+  </body>
+</html>
+

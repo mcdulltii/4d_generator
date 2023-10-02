@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    background-color: #333;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #6699CC;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+li {
+  padding-bottom: 1vh;
+}
+

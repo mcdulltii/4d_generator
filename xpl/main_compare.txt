@@ -1,0 +1,138 @@
+__int64 __fastcall main__compare(int a1, int a2, int a3, int a4, int a5, int a6, char src, int a8, __int64 a9)
+{
+  // [COLLAPSED LOCAL DECLARATIONS. PRESS KEYPAD CTRL-"+" TO EXPAND]
+
+  if ( HIDWORD(a9) != 32 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(31, (unsigned int)&src, v9, v10, v11, v12, v142, v143, v144) != 118 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(19, (unsigned int)&src, v13, v14, v15, v16, v142, v143, v144) )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(21, (unsigned int)&src, v17, v18, v19, v20, v142, v143, v144) != 87 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(13, (unsigned int)&src, v21, v22, v23, v24, v142, v143, v144) != 19 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(30, (unsigned int)&src, v25, v26, v27, v28, v142, v143, v144) != 110 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(14, (unsigned int)&src, v29, v30, v31, v32, v142, v143, v144) != 84 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(20, (unsigned int)&src, v33, v34, v35, v36, v142, v143, v144) != 63 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(24, (unsigned int)&src, v37, v38, v39, v40, v142, v143, v144) != 91 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(12, (unsigned int)&src, v41, v42, v43, v44, v142, v143, v144) != 43 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(29, (unsigned int)&src, v45, v46, v47, v48, v142, v143, v144) != 22 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(11, (unsigned int)&src, v49, v50, v51, v52, v142, v143, v144) != 104 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(10, (unsigned int)&src, v53, v54, v55, v56, v142, v143, v144) != 17 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(2, (unsigned int)&src, v57, v58, v59, v60, v142, v143, v144) != 100 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(6, (unsigned int)&src, v61, v62, v63, v64, v142, v143, v144) != 23 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(0, (unsigned int)&src, v65, v66, v67, v68, v142, v143, v144) != 106 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(18, (unsigned int)&src, v69, v70, v71, v72, v142, v143, v144) != 40 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(27, (unsigned int)&src, v73, v74, v75, v76, v142, v143, v144) != 28 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(25, (unsigned int)&src, v77, v78, v79, v80, v142, v143, v144) != 20 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(1, (unsigned int)&src, v81, v82, v83, v84, v142, v143, v144) != 1 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(22, (unsigned int)&src, v85, v86, v87, v88, v142, v143, v144) != 59 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(17, (unsigned int)&src, v89, v90, v91, v92, v142, v143, v144) != 104 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(8, (unsigned int)&src, v93, v94, v95, v96, v142, v143, v144) != 117 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(23, (unsigned int)&src, v97, v98, v99, v100, v142, v143, v144) != 126 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(16, (unsigned int)&src, v101, v102, v103, v104, v142, v143, v144) != 37 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(3, (unsigned int)&src, v105, v106, v107, v108, v142, v143, v144) != 45 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(4, (unsigned int)&src, v109, v110, v111, v112, v142, v143, v144) != 94 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(26, (unsigned int)&src, v113, v114, v115, v116, v142, v143, v144) != 120 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(28, (unsigned int)&src, v117, v118, v119, v120, v142, v143, v144) != 87 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(15, (unsigned int)&src, v121, v122, v123, v124, v142, v143, v144) != 110 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(7, (unsigned int)&src, v125, v126, v127, v128, v142, v143, v144) != 46 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(5, (unsigned int)&src, v129, v130, v131, v132, v142, v143, v144) != 96 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  if ( *(_BYTE *)array_get(9, (unsigned int)&src, v133, v134, v135, v136, v142, v143, v144) != 40 )
+    return 0xFFFFFFFFLL;
+  dest = &v142;
+  memmove(&v142, &src, 0x20uLL);
+  return (unsigned int)main__decrypt((int)&v142, (int)&src, v137, v138, v139, v140, v142);
+}
